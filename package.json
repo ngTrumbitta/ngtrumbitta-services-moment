@@ -1,0 +1,30 @@
+{
+  "name": "ngtrumbitta-services-moment",
+  "version": "0.0.1",
+  "description": "Moment Angular service",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ngTrumbitta/ngtrumbitta-services-moment.git"
+  },
+  "author": "William Ghelfi <trumbitta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngTrumbitta/ngtrumbitta-services-moment/issues"
+  },
+  "homepage": "https://github.com/ngTrumbitta/ngtrumbitta-services-moment",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.9",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "moment": "^2.10.6",
+    "phantomjs": "^1.9.18"
+  }
+}
